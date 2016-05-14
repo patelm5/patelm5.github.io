@@ -1,59 +1,80 @@
 # Site settings
-title: Rob Hinds
-twitter_username: rob_hinds
-name: Rob Hinds
+title: Mike Patel
+name: Mike Patel
 
 # Build settings
 markdown: kramdown
+
+#Intro
+introduction: |
+   <strong>About Me</strong>: Highly motivated, DevOps trained full stack engineer with a passion for building great products and pushing boundaries. I have a wealth of experience developing software on the JVM platform, though not neccessarily in Java!
+   <br/></br><strong>Industry Expertise</strong>: I have a detailed understanding of the online marketing industry, with advanced knowledge of user tracking and segmentation technology. I am also familiar with insurance products, having spent a few years working with them during my tenure at Accenture.
+   <br/></br><strong>Development Ideology</strong>: I thrive most in agile environments, with a strong focus on iterative product development through client collaboration.
+   <ul>
+   <li>I am in favour of lean solutions</li>
+   <li>I think specification by example is a worthwhile investment</li>
+   <li>I prefer workflows that involve pre-merge code review</li>
+   <li>Continuous Integration is a must.</li>
+   <li>I like frameworks, but am cautious of how they influence your application design</li>
+   <li>I believe developers should take responsibility for how their software runs in production.</li>
+   </ul>
+
 
 #User specific content
 #Links that will appear in the navbar
 primarylinks:
  - title: Blog
-   url: http://automateddeveloper.blogspot.com/
+   url: http://nerd-ability.blogspot.co.uk/
  - title: GitHub
-   url: https://github.com/robhinds
+   url: https://github.com/patelm5
  - title: StackOverflow
-   url: http://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
+   url: http://stackoverflow.com/users/441478/mikepatel
  - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+   url: https://uk.linkedin.com/in/michael-patel-58855535
 
 #Any buzzword skills you want to include
 skills:
- - Groovy
- - Spring MVC
- - Spring Boot
+ - Java 8
+ - Scala
+ - Akka
+ - Spring 4
+ - JavaScript
  - Gradle
- - Java
- - JPA
- - SQL
- - REST
- - Tech Architecture
+ - Maven
+ - Jenkins
+ - Chef
+ - Bash
+ - Groovy
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
-
+blogfeed:
+  - url: http://nerd-ability.blogspot.com/feeds/posts/default
+    author: Michael Patel
+  - url: http://techblog.betgenius.com/rss/
+    author: Mike Patel
 #Work experience is required
 roles:
- - title: Senior Engineer
-   start: 2012
+ - title: Connextra Technical Lead
+   start: 2011
    end: Ongoing
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> I am a senior engineer working closely with the CTO, working across the full-stack, I am involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
-   end: 2012
+   employer: Betgenius
+   description: Connextra is an advertising platform that specializes in producing rich dynamic creative based on live sports data.
+ - title: Senior Programmer
+   start: 2010
+   end: 2011
    employer: Accenture
-   description: A range of functional and technical roles, primarily working on client sites in Financial Services.
+   description: Range of technical roles, primarily working on client sites in Financial Services.
 
 #Education is required
 education:
+ - level: Master of Science (M.Sc.)
+   date: 2009
+   subject: Advanced Computer Science
+   school: University of Manchester
  - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+   date: 2008
+   subject: Computer Science
+   school: University of Manchester
 
 #This section is optional (as is the image link below)
 coursera:
@@ -62,41 +83,31 @@ coursera:
     - title: Functional Programming Principles in Scala
       link: https://www.coursera.org/course/progfun
       optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: September 16, 2013
+      date: June 3, 2013
     - title: Algorithms Design and Analysis, Part 1
-      link: https://www.coursera.org/course/progfun
+      link: https://www.coursera.org/course/algo
       optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: April 28, 2014
+      date: September 3, 2013
+    - title: Principles of Reactive Programming
+      link: https://www.coursera.org/course/reactive
+      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+      date: January 21, 2014
 
 #List of interesting Github repo/projects to include - optional
 github:
- - robhinds/twitter-sentiment-analysis
- - robhinds/spring-reactor-twitter
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/SpringMongoIntegrationExample
- - robhinds/SpringNeo4JWebApp
- - robhinds/AndroidChuckQuiz
- - robhinds/AndroidRssReader
+ - patelm5/patelm5.github.io
+ - patelm5/jmeter-maven-plugin
+ - patelm5/atmosphere-rabbitmq-example
+ - patelm5/spring-social-thymeleaf-example
+ - betgenius/krasa-jaxb-tools
+ - betgenius/plovr-maven-plugin
+ - patelm5/performance-plugin
 
 #Stackoverflow flair is optional
 stackoverflow:
-   profileurl: http://stackoverflow.com/users/258813/rhinds
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
+   profileurl: http://stackoverflow.com/users/441478/mikepatel
+   flairimageurl: http://stackoverflow.com/users/flair/441478.png
 
-#Mobile apps section is optional
-apps:
- - name: Chuck the Quiz
-   platform: Android
-   url: https://play.google.com/store/apps/details?id=com.tmm.android.chuck&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS50bW0uYW5kcm9pZC5jaHVjayJd
-   description: A basic early Android app (open sourced)
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo: |
-   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others.  In my current role Groovy is the primary language used - and I am familiar with many of the languages features and quirks (including writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>). <br/><br/>
-   <strong>Web Development</strong>: My server side web development experience has largely been based on the Spring MVC framework (although current role uses ColdFusion for server side web stack). I have also worked with some client side technology, having used jQuery, Bootstrap, LESS, SASS and have also experimented with other interesting technologies such as Backbone/Underscore/Require.<br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar and Jenkins. I have experience with an array of testing tools and technologies.<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/Parse. <br/><br/>
-   As part of Nerdability, I created, and am now primary contributor to, two Spring projects - <a target='_blank' href="https://github.com/robhinds/spring-social-geeklist">Spring-Social-Geeklist</a> and <a target='_blank' href="https://github.com/nerdability/spring-social-khan-academy">Spring-Social-Khan-Academy</a>, which provide core integration with those third-party APIs on top of the Spring Social framework. They are both listed as community projects: <a target='_blank' href="http://projects.spring.io/spring-social/">http://projects.spring.io/spring-social/</a>. <br/><br/>
-   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="http://automateddeveloper.blogspot.com/">automateddeveloper.blogspot.com</a> (I am also a <a target='_blank' href="https://dzone.com/users/899489/rhinds.html">DZone MVB</a>)
+# additionalinfo: |
