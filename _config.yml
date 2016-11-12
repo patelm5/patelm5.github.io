@@ -7,11 +7,12 @@ markdown: kramdown
 
 #Intro
 introduction: |
-   <strong>About Me</strong>: Highly motivated, DevOps trained full stack engineer with a passion for building great products and pushing boundaries. I have a wealth of experience developing software on the JVM platform, though not neccessarily in Java!
+   <strong>About Me</strong>: Highly motivated, DevOps trained full stack engineer with a passion for building great products and pushing boundaries. I have a wealth of experience developing software on the JVM platform, primarily in Java and Scala. I am comfortable in client facing conversations, and have experience working in a solutions engineering role. I also have spent several years as a Technical Lead and, as such, am familiar with mentoring and technical management. 
    <br/></br><strong>Industry Expertise</strong>: I have a detailed understanding of the online marketing industry, with advanced knowledge of user tracking and segmentation technology. I am also familiar with insurance products, having spent a few years working with them during my tenure at Accenture.
    <br/></br><strong>Development Ideology</strong>: I thrive most in agile environments, with a strong focus on iterative product development through client collaboration.
    <ul>
    <li>I am in favour of lean solutions</li>
+   <li>Good agile teams should be self-organizing</li>
    <li>I think specification by example is a worthwhile investment</li>
    <li>I prefer workflows that involve pre-merge code review</li>
    <li>Continuous Integration is a must.</li>
@@ -33,19 +34,60 @@ primarylinks:
    url: https://uk.linkedin.com/in/michael-patel-58855535
 
 #Any buzzword skills you want to include
-skills:
- - Java 8
- - Scala
- - Akka
- - Spring 4
- - JavaScript
- - Gradle
- - Maven
- - Jenkins
- - Chef
- - Bash
- - Groovy
 
+
+skills:
+   core: 
+    - Java 8 
+    - Scala
+    - Spring 4
+    - Akka
+    - Akka Streams
+    - JPA
+    - Hazelcast
+    - RabbitMQ
+    - SQL
+   scripting: 
+    - Bash
+    - Ant
+    - Groovy
+    - Ruby
+   frontend:
+    - JavaScript
+    - HTML
+    - CSS
+    - React
+    - JSP
+    - Thymeleaf
+    - Angular
+    - Google Closure
+    - TypeScript
+   build: 
+    - Maven
+    - Gradle	
+    - SBT
+    - Webpack
+    - Gulp
+   version-control: 
+    - Git
+    - SVN
+   deployment: 
+    - Jenkins
+    - Chef
+    - Puppet
+    - Docker
+    - Tomcat
+    - Apache2
+    - Mesos
+    - Marathon
+    - Consul
+    - Zookeeper
+   monitoring:
+    - Graylog 2
+    - Graphite
+    - Nagios
+    - Check MK
+    - Monitis
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 blogfeed:
   - url: http://nerd-ability.blogspot.com/feeds/posts/default
@@ -55,10 +97,15 @@ blogfeed:
 #Work experience is required
 roles:
  - title: Connextra Technical Lead
-   start: 2011
+   start: 2013
    end: Ongoing
    employer: Betgenius
    description: Connextra is an advertising platform that specializes in producing rich dynamic creative based on live sports data.
+ - title: Software Engineer
+   start: 2011
+   end: 2013
+   employer: Betgenius
+   description: Working primarily on real-time, whitelabeled, sports widgets for visualizing the state of games, when TV rights are unavailable.
  - title: Senior Programmer
    start: 2010
    end: 2011
@@ -68,10 +115,12 @@ roles:
 #Education is required
 education:
  - level: Master of Science (M.Sc.)
+   grade: Distinction
    date: 2009
    subject: Advanced Computer Science
    school: University of Manchester
  - level: Bachelor of Science (B.Sc.)
+   grade: 2:1
    date: 2008
    subject: Computer Science
    school: University of Manchester

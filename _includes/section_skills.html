@@ -5,9 +5,48 @@
 	<div class="content-rounded-panel">
 
 		<div id="skills">
-			{% for skill in site.skills %}
-				<span class="label label-info label-padded"> {{skill}} </span> &nbsp;  
+			<h2>Core Skills and Frameworks</h2>
+			<div style="margin-bottom:10px;">
+			{% for skill in site.skills.core %}
+				<span class="label label-success label-padded"> {{skill}} </span> &nbsp;  
 			{% endfor %}
+			</div>
+			<h2>Scripting</h2>
+                        <div style="margin-bottom:10px;">
+			{% for skill in site.skills.scripting %}
+                                <span class="label label-success label-padded"> {{skill}} </span> &nbsp;
+                        {% endfor %}
+			</div>
+			<h2>Frontend</h2>
+			<div style="margin-bottom:10px;">
+			{% for skill in site.skills.frontend %}
+                                <span class="label label-success label-padded"> {{skill}} </span> &nbsp;
+                        {% endfor %}
+			</div>
+			<h2>Build</h2>
+			<div style="margin-bottom:10px;">
+			{% for skill in site.skills.build %}
+                                <span class="label label-info label-padded"> {{skill}} </span> &nbsp;
+                        {% endfor %}
+			</div>
+			<h2>Deployment</h2>
+			<div style="margin-bottom:10px;">
+			{% for skill in site.skills.deployment %}
+                                <span class="label label-info label-padded"> {{skill}} </span> &nbsp;
+                        {% endfor %}
+			</div>
+			<h2>Monitoring</h2>
+			<div style="margin-bottom:10px;">
+			{% for skill in site.skills.monitoring %}
+                                <span class="label label-info label-padded"> {{skill}} </span> &nbsp;
+                        {% endfor %}
+			</div>
+			<h2>Version Control</h2>
+			<div style="margin-bottom:10px;">
+			{% for skill in site.skills.version-control %}
+                                <span class="label label-primary label-padded"> {{skill}} </span> &nbsp;
+                        {% endfor %}
+			</div>
 		</div>
 	</div>
 </div>
